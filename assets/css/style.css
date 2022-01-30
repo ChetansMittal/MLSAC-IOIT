@@ -2317,17 +2317,11 @@ section {
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
-    display: flex;
-    font-size: 16px;
-    /* margin: 25px 95px; */
+    display: inline-block;
+    font-size: 16px; 
     transition-duration: 0.4s;
     cursor: pointer;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    flex-flow: row;
-    justify-content: space-around;
-    align-content: center;
-    
+
 
   }
   
