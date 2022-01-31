@@ -1,13 +1,9 @@
-
-
 .u-body{
   background: url("../assets/gif/f.gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
-
-
 
 .u-section-1 {
   background-image: none;
@@ -30,18 +26,12 @@
   padding: 30px 110px 0 30px;
 }
 
-.u-section-1 .u-shape-1 {
-  width: 105px;
-  height: 105px;
-  margin: 0 auto 0 0;
-}
-
 .u-section-1 .u-text-1 {
   font-size: 2.25rem;
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 4px;
-  margin: 45px 118px 0 0;
+  margin: 150px 118px 0 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -83,11 +73,6 @@
 
   .u-section-1 .u-container-layout-1 {
     padding-right: 81px;
-  }
-
-  .u-section-1 .u-shape-1 {
-    width: 85px;
-    height: 86px;
   }
 
   .u-section-1 .u-text-1 {
@@ -159,10 +144,6 @@
     padding-left: 10px;
   }
 
-  .u-section-1 .u-shape-1 {
-    height: 105px;
-  }
-
   .u-section-1 .u-layout-cell-2 {
     min-height: 876px;
   }
@@ -185,10 +166,8 @@
     min-height: 602px;
   }
 
-  .u-section-1 .u-shape-1 {
-    width: 72px;
-    height: 89px;
-    margin-right: 248px;
+  .u-section-1 .u-text-1 {
+    margin-top: 134px;
   }
 
   .u-section-1 .u-text-2 {
@@ -222,6 +201,7 @@
   font-weight: 700;
   text-shadow: 0 0 8px rgba(128,128,128,1);
   width: 417px;
+  font-size: 3rem;
   margin: 0 auto;
 }
 
@@ -234,6 +214,7 @@
 .u-section-2 .u-text-2 {
   width: 417px;
   font-weight: 700;
+  font-size: 3rem;
   margin: 30px auto 60px;
 }
 
@@ -244,16 +225,11 @@
 
   .u-section-2 .u-text-1 {
     animation-duration: 1000ms;
-    font-size: 3rem;
   }
 
   .u-section-2 .u-image-1 {
     width: 940px;
     height: 444px;
-  }
-
-  .u-section-2 .u-text-2 {
-    font-size: 3rem;
   }
 }
 
@@ -354,6 +330,7 @@
   background-image: url("../assets/Photos/Isha nadkar.jpg");
   background-position: 50% 50%;
   margin: 0 auto 0 0;
+
 }
 
 .u-section-3 .u-text-3 {
