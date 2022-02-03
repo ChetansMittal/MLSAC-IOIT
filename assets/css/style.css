@@ -97,7 +97,7 @@ h6 {
     flex-direction: row;
     flex-wrap: wrap;
     flex-grow: 1;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 /*--------------------------------------------------------------
@@ -946,15 +946,24 @@ h6 {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color:#2C4964;
+    color:#004bec;
     margin-top: 0;
     margin-bottom: 0
     
 }
 
-.subhead--dark {
-    color: #000
+.subhead1 {
+    font-family: montserrat-bold, sans-serif;
+    font-size: 3rem;
+    line-height: 1.333;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    color:#242323;
+    margin-top: 0;
+    margin-bottom: 0
+    
 }
+
 @media only screen and (max-width:600px) {
     .s-works {
         padding-bottom: 0;
@@ -2279,7 +2288,7 @@ section {
         justify-content: center;
     }
     .s-works1 .intro-wrap-one{
-        height: 700px;
+        height: 500px;
     }
 
    
@@ -2338,12 +2347,12 @@ section {
   .def {
     border-radius: 16px;
     color: rgb(0, 0, 0);
-    padding: 16px 32px;
+    padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     display:block;
-    font-size: 24px;
-    margin: 30px 2px;
+    font-size: 20px;
+    margin: 20px 1px;
     transition-duration: 0.4s;
     cursor: pointer;
                 
