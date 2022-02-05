@@ -5,7 +5,6 @@
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
-   
 }
 
 a {
@@ -27,11 +26,13 @@ h6 {
     font-family: "Poppins", sans-serif;
 }
 
+
 /* Scrollbar */
 
 ::-webkit-scrollbar {
     width: 8px;
 }
+
 
 /* Track */
 
@@ -40,6 +41,7 @@ h6 {
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
+
 
 /* Handle */
 
@@ -53,6 +55,7 @@ h6 {
 ::-webkit-scrollbar-thumb:window-inactive {
     background: whitesmoke;
 }
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -89,16 +92,19 @@ h6 {
     opacity: 1;
 }
 
+
 /*---------------------------------------------------------------
    Spoonsersssssssssss
    ---------------------------------------------------------*/
-.sponser_container{
+
+.sponser_container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     flex-grow: 1;
     justify-content: center;
 }
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -147,6 +153,7 @@ h6 {
     }
 }
 
+
 /* #preloader {
   width: 100%;
   height: 100vh;
@@ -184,6 +191,7 @@ h6 {
   }
 } */
 
+
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -194,6 +202,7 @@ h6 {
     }
 }
 
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -202,7 +211,6 @@ h6 {
     transition: all 0.5s;
     z-index: 997;
     padding: 20px 0;
-    
 }
 
 #header.header-scrolled,
@@ -231,9 +239,11 @@ h6 {
     max-height: 60px;
 }
 
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+
 
 /**
 * Desktop Navigation 
@@ -395,6 +405,7 @@ h6 {
     }
 }
 
+
 /**
 * Mobile Navigation 
 */
@@ -486,6 +497,7 @@ h6 {
     color: #2c4964;
 }
 
+
 /* .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
 } */
@@ -525,7 +537,6 @@ h6 {
 }
 
 
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -536,16 +547,12 @@ h6 {
     /* background: linear-gradient(45deg, rgba(200, 200, 190, 0.9) 0%, rgba(0, 131, 244, 0.9)  100%), url("../img/hero-bg2.jpg") center center no-repeat; */
     /* background: linear-gradient(45deg, rgba(200, 200, 190, 0.9) 0%, rgba(12, 156, 238, 0.9)  100%), url("../img/hero-bg.jpg") center center no-repeat; */
     /* background: linear-gradient( 45deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 131, 244, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat; */
-    display: flex; 
-    background:url("../img/bg.slow.gif") no-repeat;
-    
+    display: flex;
+    background: url("../img/bg.slow.gif") no-repeat;
     height: 100vh;
-    
     min-height: 400px;
     background-size: cover;
     background-attachment: fixed;
-   
-   
 }
 
 #home .container,
@@ -661,9 +668,11 @@ h6 {
     }
 }
 
+
 /*--------------------------------------------------------------
 # Sections General
 ------------------------------------------------------------*/
+
 .row {
     width: 94%;
     max-width: 1200px;
@@ -743,6 +752,7 @@ h6 {
         width: 100px
     }
 }
+
 @media only screen and (min-device-width:320px) and (max-device-width:480px) and (-webkit-min-device-pixel-ratio:2) and (orientation:portrait) {
     .about-desc {
         padding: 3em
@@ -869,6 +879,7 @@ h6 {
     color: var(--primary-color-blue);
     text-decoration: none
 }
+
 .display-1 {
     font-family: montserrat-medium, sans-serif;
     font-size: 7.8rem;
@@ -892,6 +903,7 @@ h6 {
 .display-2--light {
     color: #fff
 }
+
 @media only screen and (max-width:1200px) {
     .display-1 {
         font-size: 7.2rem
@@ -936,6 +948,7 @@ h6 {
     width: 100%;
     margin-bottom: 30px
 }
+
 .subhead+.display-2 {
     margin-top: .6rem
 }
@@ -946,10 +959,9 @@ h6 {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color:#004bec;
+    color: #004bec;
     margin-top: 0;
     margin-bottom: 0
-    
 }
 
 .subhead1 {
@@ -958,16 +970,14 @@ h6 {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color:#242323;
+    color: #242323;
     margin-top: 0;
     margin-bottom: 0
-    
 }
 
 @media only screen and (max-width:600px) {
     .s-works {
         padding-bottom: 0;
-    
     }
     .s-works .intro-wrap {
         padding: 12rem 0 25.2rem
@@ -991,6 +1001,7 @@ h6 {
     min-height: 800px;
     position: relative
 }
+
 .s-works1 {
     background: #fff;
     padding: 0;
@@ -1002,24 +1013,20 @@ h6 {
     padding: 5rem 0 13rem;
     background: #111;
     /* height: 1100px; */
-    
-
 }
+
 .s-works1 .intro-wrap-one {
     padding: 5rem 0 13rem;
     background: linear-gradient( 45deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 131, 244, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
     background-size: cover;
     padding: 80px 0 60px 0;
     height: 500px;
-
 }
 
 @media only screen and (max-width:600px) {
     .s-works1 {
         padding-bottom: 0;
-    
     }
-   
     .works-content {
         margin-top: -25.2rem
     }
@@ -1037,6 +1044,7 @@ h6 {
     max-width: 1160px;
     margin-top: -23.4rem
 }
+
 section {
     padding: 100px 0;
     overflow: hidden;
@@ -1050,7 +1058,6 @@ section {
     text-align: center;
     padding-bottom: 30px;
 }
-
 
 .section-title h2 {
     font-size: 32px;
@@ -1075,6 +1082,7 @@ section {
 .section-title p {
     margin-bottom: 0;
 }
+
 
 /*--------------------------------------------------------------
 # About
@@ -1146,6 +1154,7 @@ section {
     background: black;
 }
 
+
 /* .read-more i {
   font-size: 22px;
   position: absolute;
@@ -1157,9 +1166,11 @@ section {
     line-height: 2.5rem;
 }
 
-/*eextra css*/
-/*-----------------------------------------------------------------*/
 
+/*eextra css*/
+
+
+/*-----------------------------------------------------------------*/
 
 .section-header {
     text-align: center;
@@ -1229,6 +1240,8 @@ section {
         width: 250px
     }
 }
+
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -1254,6 +1267,7 @@ section {
     color: rgba(255, 255, 255, 0.8);
 }
 
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -1265,7 +1279,6 @@ section {
     background: #fff;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
-    
 }
 
 .services .icon-box .icon {
@@ -1312,6 +1325,7 @@ section {
     font-size: 14px;
     margin-bottom: 0;
 }
+
 
 /* .services .icon-box:hover {
   border-color: #fff;
@@ -1372,11 +1386,10 @@ section {
   fill: #11dbcf;
 } */
 
+
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
-
-
 
 .features .image {
     background-position: center center;
@@ -1385,12 +1398,12 @@ section {
     min-height: 600px;
 }
 
-
 @media (max-width: 767px) {
     .eventimage {
         padding-left: 0;
     }
 }
+
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -1482,6 +1495,7 @@ section {
         margin: 30px 10px;
     }
 }
+
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -1609,6 +1623,7 @@ section {
     bottom: calc(50% - 50px);
 }
 
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -1674,6 +1689,7 @@ section {
 .portfolio-details .portfolio-description p {
     padding: 0;
 }
+
 
 /*--------------------------------------------------------------
 # Pricing
@@ -1786,6 +1802,7 @@ section {
     color: #fff;
 }
 
+
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
@@ -1881,6 +1898,7 @@ section {
         padding: 0;
     }
 }
+
 
 /*--------------------------------------------------------------
 # Contact
@@ -2014,6 +2032,7 @@ section {
     }
 }
 
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -2067,6 +2086,7 @@ section {
         display: inline-block;
     }
 }
+
 
 /*--------------------------------------------------------------
 # Footer
@@ -2252,6 +2272,7 @@ section {
     color: #000;
 }
 
+
 /* Blogs */
 
 .view-more-blogs {
@@ -2278,20 +2299,19 @@ section {
     background: black;
 }
 
+
 /* Maps */
 
 @media (max-width: 767px) {
     .maps iframe {
         display: none;
     }
-    .sponser_container{
+    .sponser_container {
         justify-content: center;
     }
-    .s-works1 .intro-wrap-one{
+    .s-works1 .intro-wrap-one {
         height: 500px;
     }
-
-   
 }
 
 @media (min-width: 1024px) {
@@ -2300,26 +2320,27 @@ section {
     }
 }
 
-
-.event .container{
+.event .container {
     display: flex;
     flex-direction: row;
-   justify-content:space-around;
+    justify-content: space-around;
     flex-grow: 1;
     min-height: 400px;
 }
 
-.event .container .div{
+.event .container .div {
     margin: 20px;
     padding: 10px;
-    
 }
+
 .event .container .detail {
     justify-content: flex-start;
 }
-.event{
+
+.event {
     background-color: rgb(255, 255, 255);
 }
+
 .abc {
     border-radius: 16px;
     color: white;
@@ -2327,50 +2348,49 @@ section {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px; 
+    font-size: 16px;
     transition-duration: 0.4s;
     cursor: pointer;
+}
 
-
-  }
-  
-  .button1 {
-    background-color: white; 
-    color: black; 
+.button1 {
+    background-color: white;
+    color: black;
     border: 2px solid #000000;
-  }
-  
-  .button1:hover {
+}
+
+.button1:hover {
     background-color: #000000;
     color: white;
-  }
-  .def {
+}
+
+.def {
     border-radius: 16px;
     color: rgb(0, 0, 0);
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
-    display:block;
+    display: block;
     font-size: 20px;
     margin: 20px 1px;
     transition-duration: 0.4s;
     cursor: pointer;
-                
-  }
-  .button2 {
+}
+
+.button2 {
     background-color: white;
     color: black;
     border: 2px solid #000000;
     padding-top: 10px;
-  }
-  
-  .button2:hover {
+}
+
+.button2:hover {
     background-color: #000000;
     color: white;
-  }
+}
 
 
-  /* .abc .button1{
+/* .abc .button1{
       width: fit-content;
 
   }
