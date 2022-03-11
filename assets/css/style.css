@@ -1234,7 +1234,7 @@ section {
 
 @media only screen and (max-width:600px) {
     .section-header.has-bottom-sep {
-        padding-bottom: 0
+       
     }
     .section-header.has-bottom-sep::before {
         width: 250px
@@ -2310,7 +2310,7 @@ section {
         justify-content: center;
     }
     .s-works1 .intro-wrap-one {
-        height: 500px;
+        height: 750px;
     }
 }
 
@@ -2351,12 +2351,14 @@ section {
     font-size: 16px;
     transition-duration: 0.4s;
     cursor: pointer;
+    
 }
 
 .button1 {
     background-color: white;
     color: black;
     border: 2px solid #000000;
+    
 }
 
 .button1:hover {
@@ -2382,13 +2384,16 @@ section {
     color: black;
     border: 2px solid #000000;
     padding-top: 10px;
+   
 }
 
 .button2:hover {
     background-color: #000000;
     color: white;
 }
-
+.imgevent{
+    padding-top: 100px;
+}
 
 /* .abc .button1{
       width: fit-content;
