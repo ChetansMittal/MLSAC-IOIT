@@ -105,6 +105,10 @@ h6 {
     justify-content: center;
 }
 
+.sponser_container .lgsponser{
+    margin: 10px;
+}
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -2310,7 +2314,7 @@ section {
         justify-content: center;
     }
     .s-works1 .intro-wrap-one {
-        height: 750px;
+        height: 1000px;
     }
 }
 
